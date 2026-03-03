@@ -1,0 +1,24 @@
+## Both Debian and Ubuntu
+#
+apt install neovim htop iftop iotop btop tmux build-essential gdb cmake git diffutils wget wget2 curl rsync tcpdump net-tools xclip xsel tree fzf cryfs age mc command-not-found aptitude bind9-dnsutils lsof less logrotate texinfo lsb-release bc pwgen xkcdpass xxd trash-cli tasksel needrestart extrepo gdisk dosfstools mtools ntfs-3g btrfs-progs xfsprogs jfsutils exfatprogs f2fs-tools nfs-common squashfs-tools mdadm 7zip rar unrar zip unzip gzip bzip2 xz-utils zstd pigz intel-microcode pv jq yq xq speedtest-cli bat duf ripgrep smartmontools nvme-cli inxi hwinfo smbclient 
+
+## Only Ubunty
+# apt install software-properties-common
+#
+## Only Debian
+apt install netselect-apt
+# install standrad task with 
+tasksel install standard
+#
+## Optional
+# apt install links glances bubblewrap efitools entr doas tshark czkawka-cli hstr firejail minisign mercurial valgrind aria2 ethtool usbutils sysfsutils fsarchiver signify-openbsd testdisk partclone partimage ngrep fastfetch ncdu eza
+#
+## Wireless
+# apt install iwd wpasupplicant wireless-tools
+#
+## Flatpack support
+# apt install flatpak flatseal
+#
+## VPN support
+# apt install wireguard wireguard-tools openvpn openconnect
+#
